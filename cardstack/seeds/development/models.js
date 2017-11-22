@@ -6,14 +6,6 @@ module.exports = [
     id: '@cardstack/ephemeral'
   },
   {
-    type: 'plugin-configs',
-    id: '@cardstack/models'
-  },
-  {
-    type: 'plugin-configs',
-    id: '@cardstack/jsonapi'
-  },
-  {
     type: 'data-sources',
     id: 'default',
     attributes: {
