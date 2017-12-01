@@ -1,1 +1,7 @@
 <h1>{{content.title}}</h1>
+
+{{#with content.mainQuery as |query|}}
+  {{#cardstack-search query=query as |item|}}
+    {{cardstack-content content=item format="listing"}}
+  {{/cardstack-search}}
+{{/with}}
