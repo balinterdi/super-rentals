@@ -46,8 +46,13 @@
     "@cardstack/hub": "^0.4.0",
     "@cardstack/jsonapi": "^0.4.0",
     "@cardstack/models": "^0.4.0",
-    "@cardstack/routing": "^0.4.0",
+    "@cardstack/routing": "*",
     "@cardstack/search": "^0.4.3",
     "@cardstack/test-support": "^0.4.0"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/image-url"
+    ]
   }
 }

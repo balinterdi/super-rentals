@@ -1,4 +1,8 @@
 <article class="listing">
+  <a {{action (mut isWide) (not isWide)}} class="image {{if isWide "wide"}}">
+    <img src={{content.image}} alt="">
+    <small>View Larger</small>
+  </a>
   <h3><a href={{cardstack-url content}}>{{content.title}}</a></h3>
   <div class="detail owner">
     <span>Owner:</span> {{content.owner}}

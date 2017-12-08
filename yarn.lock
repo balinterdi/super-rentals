@@ -125,7 +125,7 @@
     ember-overlays "^1.0.0"
     ember-truth-helpers "^1.3.0"
 
-"@cardstack/routing@^0.4.0":
+"@cardstack/routing@*":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@cardstack/routing/-/routing-0.4.2.tgz#46591336c142825b34b5e9ac22cd17344d8d72e2"
   dependencies:
